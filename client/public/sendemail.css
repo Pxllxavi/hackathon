@@ -1,0 +1,127 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, #60240aa5, #703709a5),
+    url(sendmailbg.jpg);
+  background-size: cover;
+}
+.otp {
+  background-color: transparent;
+  padding: 10px;
+  font-size: 40px;
+  text-align: center;
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.495);
+}
+.btn {
+  background-color: transparent;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #1c75b0;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+.container {
+  background-color: #ffffff97;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fade-in 0.5s ease-out,
+    bounce 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  max-width: 90%; /* Added for responsiveness */
+}
+
+h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+img {
+  width: 100px;
+  margin-bottom: 30px;
+  animation: pulse 1s infinite alternate;
+}
+
+a {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+a:hover {
+  background-color: #0056b3;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+/* Media Queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px; /* Adjusted padding for smaller screens */
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 28px; /* Adjusted font size for smaller screens */
+  }
+
+  p {
+    font-size: 16px; /* Adjusted font size for smaller screens */
+  }
+
+  img {
+    width: 80px; /* Adjusted image size for smaller screens */
+  }
+
+  a {
+    font-size: 16px; /* Adjusted font size for smaller screens */
+    padding: 10px 20px; /* Adjusted padding for smaller screens */
+  }
+}

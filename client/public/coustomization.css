@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  transition: all 2s;
+  animation: header 2s;
+  animation-delay: 4s;
+  background-color: rgb(59, 93, 80);
+}
+.nav_list {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+}
+.items {
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.805);
+  font-size: 18px;
+  font-weight: 900;
+}
+.items:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.heaer_nav {
+  align-self: center;
+}
+.head_logo {
+  color: white;
+  font-size: 50px;
+}
+.logo_span {
+  color: rgb(249, 191, 41);
+}
+.heading-1 {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Bitter", serif;
+  font-optical-sizing: auto;
+  font-size: 40px;
+}
+.heading2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: -30px;
+  text-decoration: underline;
+  letter-spacing: 4px;
+  color: #173f08;
+}
+
+.wood_list,
+.color_list,
+.capacity_list,
+.cloth_list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.wood_items,
+.sofa_items,
+.cloth_items,
+.capacity_items {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.wood_items:hover,
+.sofa_items:hover,
+.cloth_items:hover,
+.capacity_items:hover {
+  scale: 1.05;
+}
+
+figcaption {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.btn_next {
+  padding: 15px;
+  width: 200px;
+  font-size: 17px;
+  font-weight: 900;
+  background-color: rgb(92, 136, 27);
+  border: none;
+  color: white;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.btn_next:hover {
+  background-color: rgb(101, 145, 34);
+}
+.next {
+  text-align: center;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+.checkbox {
+  display: none;
+}
+.selectedWood {
+  width: 100px;
+  height: 100px;
+}
+.selectedData {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.div_final {
+  display: flex;
+  border-radius: 50%;
+}
+
+.div_final {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: start;
+}
+.selectedWood_container,
+.selectedColor_container,
+.selectedCloth_container,
+.selectedCapacity_container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}

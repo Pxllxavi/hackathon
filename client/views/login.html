@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <h2>Log In</h2>
+        <form action="/finallogin" class="login-form" method="post">
+          <div class="form-group">
+            <input type="email" id="email" name="email" required />
+            <label for="email">Email</label>
+          </div>
+          <div class="form-group">
+            <input type="password" id="password" name="password" required />
+            <label for="password">Password</label>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <div class="bottom-text">
+          <span>Don't have an account?</span> <a href="signup.html">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
